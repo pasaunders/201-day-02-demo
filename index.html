@@ -1,0 +1,21 @@
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Wheeeee! Imma ask you a question.</h1>
+    <script>
+      var user = prompt('what is your name?');
+      console.log('The user\'s name is ' + user);
+
+      alert ('Hi there, '+ user +', imma ask you a question.');
+
+      var answer1 = prompt(user + ', this is a yes/no question, so pleas answer with Y or N. Does sam have 4 cats?');
+      console.log('The user answered question 1: '+answer1);
+      if (answer1 === 'N') {
+        alert('Damn straight. ' + user +' Sam has 3 cats.');
+      } else {
+        alert('Wrong. You Lose. HAHA.');
+      }
+    </script>
+  </body>
+</html>
